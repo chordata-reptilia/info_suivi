@@ -37,6 +37,8 @@ sources:
   # — CGT —
   - name: CGT Capgemini
     url: https://lacgtcap.org/feed/
+  - name: CGT Ubisoft
+    url: https://cgt-ubisoft.fr/feed/
 
 # Mots-clés de filtrage.
 # Règle automatique :

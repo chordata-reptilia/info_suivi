@@ -42,8 +42,9 @@ def try_feed(url):
     except Exception:
         return None
     parsed = feedparser.parse(r.content)
-    if parsed.entries and parsed.feed.get("title"):
-        return parsed.feed.get("title", "?"), len(parsed.entries)
+    # un vrai flux a des entrées ; le titre du flux peut être vide (toléré)
+    if parsed.entries:
+        return parsed.feed.get("title") or "(sans titre)", len(parsed.entries)
     return None
 
 
