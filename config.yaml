@@ -13,6 +13,30 @@ sources:
     url: https://www.stjv.fr/feed/
   - name: Le Monde Informatique
     url: https://www.lemondeinformatique.fr/rss/rss.xml
+  # — Solidaires Informatique & sections —
+  - name: Solidaires Informatique (national)   # couvre aussi Sopra Steria, Partenor, Segula, Blizzard
+    url: https://solidairesinformatique.org/feed/
+  - name: Solidaires 360
+    url: https://360solidaires.solidairesinformatique.org/index.xml
+  - name: Solidaires Back Market
+    url: https://backmarket.solidairesinformatique.org/fr/index.xml
+  - name: Solidaires Lucca
+    url: https://solidaireslucca.org/index.xml
+  - name: Solidaires Informatique OVH
+    url: https://solidaires.ovh/index.xml
+  - name: Solidaires Red Hat
+    url: https://solidaires-redhat.org/index.xml
+  - name: Solidaires Systerel
+    url: https://solidaires-systerel.frama.io/index.xml
+  - name: Solidaires Ubisoft Paris
+    url: https://siubiparis.github.io/feed
+  - name: Solidaires SNCF Connect & Tech
+    url: https://scts.solidairesinformatique.org/index.xml
+  - name: SUD AtoS
+    url: https://sudatos.blogspot.com/rss.xml
+  # — CGT —
+  - name: CGT Capgemini
+    url: https://lacgtcap.org/feed/
 
 # Mots-clés de filtrage.
 # Règle automatique :

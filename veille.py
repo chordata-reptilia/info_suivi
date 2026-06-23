@@ -83,7 +83,11 @@ def entry_datetime(entry):
     for key in ("published_parsed", "updated_parsed"):
         st = entry.get(key)
         if st:
-            return datetime.fromtimestamp(time.mktime(st), tz=timezone.utc)
+            try:
+                return datetime.fromtimestamp(time.mktime(st), tz=timezone.utc)
+            except (ValueError, OverflowError, OSError):
+                # date aberrante dans le flux (ex. année 0) -> on ignore
+                continue
     return datetime.now(timezone.utc)
 
 
