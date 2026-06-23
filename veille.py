@@ -95,11 +95,37 @@ def entry_text(entry):
     return "\n".join(parts)
 
 
+# En-têtes de navigateur : certains sites (WordPress derrière Cloudflare/
+# plugins de sécurité) renvoient une page HTML de blocage aux requêtes sans
+# User-Agent crédible — surtout depuis des IP de datacenter (ex. GitHub Actions).
+BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+}
+
+
+def _parse_feed(url):
+    """Récupère l'URL avec un User-Agent navigateur puis parse le contenu.
+
+    Repli sur feedparser.parse(url) direct si la requête HTTP échoue.
+    """
+    try:
+        resp = requests.get(url, headers=BROWSER_HEADERS, timeout=20)
+        resp.raise_for_status()
+        return feedparser.parse(resp.content)
+    except Exception:  # noqa: BLE001
+        return feedparser.parse(url)
+
+
 def fetch_source(source, matchers):
     """Renvoie la liste des articles retenus pour une source."""
     url, name = source["url"], source["name"]
     try:
-        parsed = feedparser.parse(url)
+        parsed = _parse_feed(url)
     except Exception as e:  # noqa: BLE001
         print(f"  [!] {name}: erreur de lecture ({e})", file=sys.stderr)
         return []
