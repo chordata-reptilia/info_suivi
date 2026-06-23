@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+seen.json
+feed.xml
+.env
+*.log
+veille.log

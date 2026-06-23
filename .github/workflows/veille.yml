@@ -1,0 +1,45 @@
+name: Veille RSS
+
+on:
+  schedule:
+    # toutes les 30 minutes (heure UTC). GitHub peut décaler de quelques minutes.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}   # bouton "Run workflow" manuel
+
+permissions:
+  contents: write          # autorise le commit de feed.xml / seen.json
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Lancer la veille
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python veille.py
+
+      - name: Publier feed.xml + état
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # -f car feed.xml/seen.json sont dans .gitignore (usage local)
+          git add -f feed.xml seen.json
+          if git diff --quiet --cached; then
+            echo "Rien de nouveau, pas de commit."
+          else
+            git commit -m "Mise à jour veille ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi

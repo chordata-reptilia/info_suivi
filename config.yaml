@@ -1,0 +1,74 @@
+# ─────────────────────────────────────────────────────────────
+# Configuration de la veille
+# ─────────────────────────────────────────────────────────────
+
+# Sources : sites avec un flux RSS.
+# (Les 4 sites de départ ont tous un flux RSS natif — vérifié.)
+sources:
+  - name: CGT IBM France
+    url: https://ibm.syndicatcgt.fr/feed/
+  - name: CFDT IBM France
+    url: https://www.cfdt-ibm.org/feed/
+  - name: STJV
+    url: https://www.stjv.fr/feed/
+  - name: Le Monde Informatique
+    url: https://www.lemondeinformatique.fr/rss/rss.xml
+
+# Mots-clés de filtrage.
+# Règle automatique :
+#   - mot écrit en MAJUSCULES (PSE, PIP, RCC)  -> correspondance EXACTE du mot
+#     (évite que "pip" matche "pipeline", etc.)
+#   - mot normal (grève, licenciement)         -> correspondance sur la racine
+#     (matche aussi "grèves", "licenciements", "licencié·es"...)
+# La casse et les accents sont ignorés dans tous les cas.
+keywords:
+  # — Action collective —
+  - grève
+  - débrayage
+  - manifestation
+  - rassemblement
+  - mobilisation
+  - piquet de grève
+  - intersyndicale
+  - droit de retrait
+  # — Emploi / plans sociaux —
+  - licenciement
+  - préavis
+  - plan social
+  - plan de départ
+  - rupture conventionnelle
+  - chômage partiel
+  - chômage technique
+  - restructuration
+  - réorganisation
+  - sanction
+  # acronymes + forme développée (les deux écritures sont cherchées)
+  - PSE
+  - plan de sauvegarde de l'emploi
+  - PIP
+  - plan d'amélioration de la performance
+  - RCC
+  - rupture conventionnelle collective
+  - NAO
+  - négociation annuelle obligatoire
+  # — Conditions de travail —
+  - harcèlement
+  - discrimination
+  - souffrance au travail
+  - inaptitude
+  - burn-out
+  - burnout
+
+# Notifications Discord : le webhook est lu depuis une variable
+# d'environnement (jamais écrit en clair dans ce fichier).
+discord_webhook_env: DISCORD_WEBHOOK_URL
+
+# Métadonnées du flux agrégé produit
+feed_title: "Veille sociale — syndicats & tech"
+feed_link: "https://localhost/veille"
+feed_description: "Articles filtrés par mots-clés (grève, manifestation, PSE, licenciements, PIP…)"
+
+# Fichiers de sortie / état (relatifs au dossier du projet)
+output_feed: feed.xml
+state_file: seen.json
+max_items: 150
