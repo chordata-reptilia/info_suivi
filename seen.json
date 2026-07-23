@@ -1281,5 +1281,16 @@
       "sanction"
     ],
     "date": "2026-07-22T08:25:51+00:00"
+  },
+  "https://www.lemondeinformatique.fr/actualites/lire-intel-taille-dans-ses-effectifs-100713.html": {
+    "id": "https://www.lemondeinformatique.fr/actualites/lire-intel-taille-dans-ses-effectifs-100713.html",
+    "title": "Intel taille dans ses effectifs",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-intel-taille-dans-ses-effectifs-100713.html",
+    "summary": "Après plusieurs restructurations, dont la dernière remonte à juillet 2025, sous la direction de Lip-Bu Tan, Intel prépare une (...)",
+    "source": "Le Monde Informatique",
+    "keywords": [
+      "restructuration"
+    ],
+    "date": "2026-07-23T16:01:54+00:00"
   }
 }
