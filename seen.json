@@ -1748,5 +1748,17 @@
       "mobilisation"
     ],
     "date": "2026-11-02T07:00:00+00:00"
+  },
+  "https://solidaires.ovh/posts/greve-5-novembre-2026/": {
+    "id": "https://solidaires.ovh/posts/greve-5-novembre-2026/",
+    "title": "Jeudi 5 novembre : Grève Générale",
+    "link": "https://solidaires.ovh/posts/greve-5-novembre-2026/",
+    "summary": "Jeudi 5 novembre, un appel à la grève générale et reconductible est lancé par plusieurs syndicats, Solidaires Informatique en fait partie à travers l&rsquo;Union Syndicale Solidaires.",
+    "source": "Solidaires Informatique OVH",
+    "keywords": [
+      "grève",
+      "mobilisation"
+    ],
+    "date": "2026-11-03T09:00:00+00:00"
   }
 }
