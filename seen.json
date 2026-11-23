@@ -1860,5 +1860,16 @@
       "rupture conventionnelle collective"
     ],
     "date": "2026-11-19T12:30:19+00:00"
+  },
+  "https://www.lemondeinformatique.fr/donnees-ia/trump-menace-de-taxer-les-datacenters-americains-construits-a-l-etranger": {
+    "id": "https://www.lemondeinformatique.fr/donnees-ia/trump-menace-de-taxer-les-datacenters-americains-construits-a-l-etranger",
+    "title": "Trump menace de taxer les datacenters américains construits à l'étranger",
+    "link": "https://www.lemondeinformatique.fr/donnees-ia/trump-menace-de-taxer-les-datacenters-americains-construits-a-l-etranger",
+    "summary": "Donald Trump veut dissuader les entreprises américaines de construire des datacenters hors des États-Unis. Lors d'une conférence de presse à la Maison-Blanche, le 20 novembre 2026, le président américain a évoqué de lourdes sanctions fiscales pour les groupes qui investissent dans des infrastructures informatiques à l'étranger. Une menace qui pourrait compliquer les stratégies internationales des hyperscalers, notamment en Europe, même si aucun dispositif précis n'a encore été présenté.",
+    "source": "Le Monde Informatique",
+    "keywords": [
+      "sanction"
+    ],
+    "date": "2026-11-23T08:57:10+00:00"
   }
 }

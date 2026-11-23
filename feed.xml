@@ -7,7 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 23 Nov 2026 04:10:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:01:26 +0000</lastBuildDate>
+    <item>
+      <title>[Le Monde Informatique] Trump menace de taxer les datacenters américains construits à l'étranger</title>
+      <link>https://www.lemondeinformatique.fr/donnees-ia/trump-menace-de-taxer-les-datacenters-americains-construits-a-l-etranger</link>
+      <description>&lt;p&gt;&lt;em&gt;Mots-clés : sanction&lt;/em&gt;&lt;/p&gt;
+Donald Trump veut dissuader les entreprises américaines de construire des datacenters hors des États-Unis. Lors d'une conférence de presse à la Maison-Blanche, le 20 novembre 2026, le président américain a évoqué de lourdes sanctions fiscales pour les groupes qui investissent dans des infrastructures informatiques à l'étranger. Une menace qui pourrait compliquer les stratégies internationales des hyperscalers, notamment en Europe, même si aucun dispositif précis n'a encore été présenté.</description>
+      <guid isPermaLink="false">https://www.lemondeinformatique.fr/donnees-ia/trump-menace-de-taxer-les-datacenters-americains-construits-a-l-etranger</guid>
+      <pubDate>Mon, 23 Nov 2026 08:57:10 +0000</pubDate>
+    </item>
     <item>
       <title>[CGT Capgemini] Janvier 2027 : 20 % des équipes projet remplacées par l’IA ?</title>
       <link>https://lacgtcap.org/janvier-2027-20-des-equipes-projet-remplacees-par-lia/</link>
@@ -1835,162 +1843,6 @@ Normal
   </description>
       <guid isPermaLink="false">tag:blogger.com,1999:blog-3295883079506700714.post-6240909782549719414</guid>
       <pubDate>Wed, 03 May 2017 10:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[SUD AtoS] Une entrée d’ATOS au CAC 40 au coût social élevé.</title>
-      <link>https://sudatos.blogspot.com/2017/03/une-entree-datos-au-cac-40-au-cout.html</link>
-      <description>&lt;p&gt;&lt;em&gt;Mots-clés : licenciement, souffrance au travail, burn-out&lt;/em&gt;&lt;/p&gt;
-Normal
-  0
-  
-  
-  
-  
-  false
-  false
-  false
-  
-  EN-US
-  X-NONE
-  X-NONE
-  
-   
-   
-   
-   
-   
-   
-   
-   
-   
-  
-  
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-  
-
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </description>
-      <guid isPermaLink="false">tag:blogger.com,1999:blog-3295883079506700714.post-1613523731323370066</guid>
-      <pubDate>Thu, 30 Mar 2017 12:18:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
