@@ -7,7 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 05:05:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 15:49:40 +0000</lastBuildDate>
+    <item>
+      <title>[Le Monde Informatique] Oracle envisage jusqu’à 1 390 suppressions de postes supplémentaires en Europe</title>
+      <link>https://www.lemondeinformatique.fr/it-direction/oracle-envisage-jusqu-a-1-390-suppressions-de-postes-supplementaires-en-europe</link>
+      <description>&lt;p&gt;&lt;em&gt;Mots-clés : restructuration&lt;/em&gt;&lt;/p&gt;
+Oracle préparerait une troisième vague de suppressions de postes en Europe en douze mois. Selon une note attribuée à son comité d’entreprise européen, révélée le 24 novembre 2026, l’éditeur américain envisagerait de supprimer jusqu’à 1 390 emplois supplémentaires dans l’Espace économique européen. Cette nouvelle restructuration s’inscrirait dans la réorientation du groupe vers les infrastructures cloud et l’intelligence artificielle. Les représentants des salariés demandent des preuves concrètes</description>
+      <guid isPermaLink="false">https://www.lemondeinformatique.fr/it-direction/oracle-envisage-jusqu-a-1-390-suppressions-de-postes-supplementaires-en-europe</guid>
+      <pubDate>Wed, 25 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>[CGT Capgemini] Journée du souvenir trans 2026</title>
       <link>https://lacgtcap.org/journee-du-souvenir-trans-2026/</link>
@@ -1639,22 +1647,6 @@ Normal
   </description>
       <guid isPermaLink="false">tag:blogger.com,1999:blog-3295883079506700714.post-430476383086407278</guid>
       <pubDate>Wed, 03 May 2017 10:39:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[SUD AtoS] La mobilité géographique utilisée abusivement par la direction pour justifier le licenciement.</title>
-      <link>https://sudatos.blogspot.com/2017/05/la-mobilite-geographique-utilisee.html</link>
-      <description>&lt;p&gt;&lt;em&gt;Mots-clés : licenciement&lt;/em&gt;&lt;/p&gt;
-Pour arriver à licencier des salariés, la
-direction propose des missions éloignées du domicile, souvent en province. Elle
-cherche ainsi à pousser les salariés au refus ou à l’épuisement moral s’ils
-acceptent. 
-
-En l’espèce, un salarié en inter-chantier, rattaché à Bezons avait une
-clause de mobilité dans son contrat de travail. La direction l’a licencié après
-plusieurs propositions de missions en province alors même que le salarié
-invoquait des nécessités impérieuses de vie personnelle et famili</description>
-      <guid isPermaLink="false">tag:blogger.com,1999:blog-3295883079506700714.post-1843133385286057733</guid>
-      <pubDate>Wed, 03 May 2017 10:38:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
