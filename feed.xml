@@ -7,7 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Fri, 27 Nov 2026 08:50:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 18:31:24 +0000</lastBuildDate>
+    <item>
+      <title>[Le Monde Informatique] SAP prépare plus de 10 000 suppressions de postes</title>
+      <link>https://www.lemondeinformatique.fr/it-direction/sap-prepare-plus-de-10-000-suppressions-de-postes</link>
+      <description>&lt;p&gt;&lt;em&gt;Mots-clés : restructuration, réorganisation&lt;/em&gt;&lt;/p&gt;
+L'éditeur allemand SAP envisage une nouvelle restructuration qui pourrait entraîner la suppression d'au moins 10 000 emplois dans le monde. Cette réorganisation vise à adapter ses activités à la montée en puissance de l'intelligence artificielle.</description>
+      <guid isPermaLink="false">https://www.lemondeinformatique.fr/it-direction/sap-prepare-plus-de-10-000-suppressions-de-postes</guid>
+      <pubDate>Fri, 27 Nov 2026 12:26:19 +0000</pubDate>
+    </item>
     <item>
       <title>[CGT Capgemini] Appel à la grève du 1er décembre 2026</title>
       <link>https://lacgtcap.org/appel-a-la-greve-du-1er-decembre-2026/</link>
@@ -1493,16 +1501,6 @@ Réorganisation des bureaux de Roubaix
 La direction avait présenté un projet de réorganisation des bureaux de Roubaix, avec un déménagement de la plupart des équipes dans Campus 1 et 2, ainsi que la fusion des deux cantines, a Campus 2.</description>
       <guid isPermaLink="false">https://solidaires.ovh/posts/communique_syndical_cse_2024-05/</guid>
       <pubDate>Tue, 28 May 2024 23:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Solidaires Systerel] 8 mars 2024 : Demain, grève pour les droits des femmes</title>
-      <link>https://solidaires-systerel.frama.io/posts/2024-03-07_greve_8_mars/greve_8_mars/</link>
-      <description>&lt;p&gt;&lt;em&gt;Mots-clés : grève, mobilisation, intersyndicale&lt;/em&gt;&lt;/p&gt;
-Demain, à l&amp;rsquo;occasion de la journée internationale des droits des femmes, aura lieu une grève féministe nationale. Nous y prendrons part, et nous espérons que vous nous rejoindrez. Afin d&amp;rsquo;apporter plus d&amp;rsquo;informations à ce sujet (voire de vous convaincre !), on s&amp;rsquo;est dit qu&amp;rsquo;une communication supplémentaire ne serait pas de trop.
-Une grève nationale ?
-Oui oui. La section Solidaires de Systerel appelle à la grève avec ses propres revendications pour l&amp;rsquo;entreprise (</description>
-      <guid isPermaLink="false">https://solidaires-systerel.frama.io/posts/2024-03-07_greve_8_mars/greve_8_mars/</guid>
-      <pubDate>Wed, 06 Mar 2024 23:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
